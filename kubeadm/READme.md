@@ -122,4 +122,6 @@ systemctl daemon-reload
 systemctl start kubelet
 systemctl enable kubelet.service
 
+kubectl config set-context --current --namespace=dev
+
 
